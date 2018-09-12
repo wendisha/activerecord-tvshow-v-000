@@ -21,6 +21,6 @@ class Show < ActiveRecord::Base
   
   def self.popular_shows 
     popular = [] 
-    self.where()
+    self.where("rating > ")
   end
 end
