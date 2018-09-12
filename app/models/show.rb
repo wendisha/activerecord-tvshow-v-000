@@ -20,6 +20,7 @@ class Show < ActiveRecord::Base
   end
   
   def self.popular_shows 
-    
+    popular = [] 
+    self.find_by(rating: )
   end
 end
